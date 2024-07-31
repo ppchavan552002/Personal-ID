@@ -100,10 +100,23 @@ body {
 	padding: 5px;
 	font-size: 15px;
 	/* text-align: center; */
-	font-family: 'Courier New', Courier, monospace;
+	font-family: "Trirong", serif;
   }
   .container{
 	text-align: center;
 	padding-top: 10px;
 	letter-spacing: 4px;
   }
+
+  a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+  }
+
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
