@@ -120,3 +120,53 @@ body {
 	text-decoration: underline;
   }
   
+/* media query for the Tablet screen */
+@media screen and (max-width: 768px) {
+	body{
+		padding-top: 10%;
+	}
+    .ID {
+        width: 350px;
+        height: auto;
+    }
+    .block {
+        width: 350px;
+        height: auto;
+    }
+    .photo {
+        width: 1.5in;
+        height: 1.5in;
+    }
+    .grid-item {
+        font-size: 14px;
+    }
+    .container {
+        padding-top: 5px;
+    }
+}
+
+/* media query for the mobile screen*/
+@media screen and (max-width: 480px) {
+    .ID {
+        width: 280px;
+        height: auto;
+        padding-top: 10px;
+    }
+    .block {
+        width: 280px;
+        height: auto;
+    }
+    .photo {
+        width: 1.2in;
+        height: 1.2in;
+    }
+    .grid-item {
+        font-size: 12px;
+    }
+    .heading {
+        font-size: 18px;
+    }
+    .container {
+        padding-top: 2px;
+    }
+}
